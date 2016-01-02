@@ -1,0 +1,26 @@
+{
+  "name": "sshconfig",
+  "version": "0.1.1",
+  "description": "A better way to manage SSH configuration file.",
+  "main": "./lib/sshconfig",
+  "repository": {
+    "url": "https://github.com/revagomes/sshconfig.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh",
+    "configuration",
+    "manager"
+  ],
+  "bin": {
+    "sshconfig": "./bin/sshconfig"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "author": "Renato Vasconcellos Gomes",
+  "license": "GPL-3.0"
+}
